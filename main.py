@@ -11,7 +11,7 @@ app = Flask(__name__)
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
     return 'Hello this is from docker'
-	
+@app.route('/name')	
 def name():
     return 'this is Kruthika'
 
